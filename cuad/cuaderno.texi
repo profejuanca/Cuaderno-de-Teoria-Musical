@@ -1,0 +1,544 @@
+\input texinfo
+@c %**Comienzo del Header
+@settitle Cuaderno de Ejercicios
+@c smallbook
+@documentlanguage es_ES
+@documentencoding UTF-8
+@copying
+Un pequeño cuaderno de ejercicios musicales de código abierto.
+
+@copyright 2019
+@end copying
+
+@titlepage
+@title Cuaderno de ejercicios musicales
+@center 
+@author Juan Carlos Hiza Martínez
+
+
+@c Los siguientes
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+@headings double
+@setchapternewpage odd
+@paragraphindent 2
+@c firstparagraphindent
+@c **%Fin del Header
+
+@contents
+
+@unnumbered Introducción
+ 
+A menudo sucede que quienes empiezan a estudiar música al principio y quizá por un tiempo considerable, no entienden cómo es que todo lo que aprenden tiene que ver con lo que elloshacen en su actividad musical.
+@vskip 10pt
+La raíz de este problema tiene varios factores que no cabe mencionar acá, a excepción de uno. Nos hemos acostumbrado a ver la música desde una óptica demasiado abstracta, que si bien tiene grandes beneficios a niveles intelectual y cognitivo puede ser contraproducente a la hora de resolver dudas esenciales y crear buenos hábitos de estudio respecto de la música.
+@vskip 10pt
+Es así que este pequeño libro no pretende intervenir de manera directa en la metodología de cada profesor ni en su enfoque sobre determinados aspectos, sino complementar todos ellos en la medida de lo posible, añadiendo no solamente ejercicios típicos para la práctica de los estudiantes de música, sino ejercicios que los inmersen en ejemplos puntuales de música real para varios instrumentos en donde la aplicación de lo aprendido sea más palpable e inmediata y en dónde el análisis en cada paso se convierte en la piedra angular para el desarrollo de mejores hábitos de estudio y de observación de la música en general.
+@vskip 10pt
+Se han añadido ejercicios de entonación relacionados a cada aspecto que pueden entonarse con la guía del profesor, para que estos aspectos se entiendan mejor y se desarrolle un mecanismo recíproco entre el análisis y la práctica que será muy provechoso para quien inicia sus estudios musicales y pretenda seriamente dedicarse a ello.
+@vskip 10pt
+Las indicaciones de esto se harán cuando sea pertinente. Quedan a cargo del profesor las explicaciones requeridas para el desarrollo de cada ejercicio, apoyándose si es necesario en los pequeños ejemplos que aparecen antes de cada uno de ellos.
+@vskip 22pt plus 1fill
+Diciembre de 2018, La Paz -- Bolivia.
+
+@node
+@chapter Ejercicios elementales sobre escritura y lectura musical
+@node
+@section El pentagrama y las claves
+Empecemos con un simple pentagrama y dibujemos las claves de @emph {Sol, Fa} y @emph {Do,} tantas veces como sea posible.
+@example
+@strong {EJERCICIO 1} 
+@end example
+@noindent
+@ifinfo
+@image{82/lily-0c4b0e90,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="82/lily-0c4b0e90.ly">
+  <img align="middle"
+       border="0"
+       src="82/lily-0c4b0e90.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 82/lily-0c4b0e90-systems.texi
+@end iftex
+
+
+En el siguiente ejercicio coloca los nombres de las notas @footnote{Como en este ejercicio, una aplicación común del cambio de claves se da ante la necesidad de cambiar de registro, en este caso de manera descendente, con tal de no requerir demasiadas líneas adicionales en la clave inicial.}
+@example
+@strong {EJERCICIO 2} 
+@end example
+@noindent
+@ifinfo
+@image{f7/lily-abe43bdf,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="f7/lily-abe43bdf.ly">
+  <img align="middle"
+       border="0"
+       src="f7/lily-abe43bdf.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include f7/lily-abe43bdf-systems.texi
+@end iftex
+
+
+(Relación de claves -- @emph{Do} central o @emph{Do}4 en las 3 claves)
+@quotation
+@noindent
+@ifinfo
+@image{89/lily-15535037,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="89/lily-15535037.ly">
+  <img align="middle"
+       border="0"
+       src="89/lily-15535037.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 89/lily-15535037-systems.texi
+@end iftex
+@end quotation
+
+
+
+@node
+@section Líneas y espacios adicionales
+
+Re-escribe los siguientes fragmentos en las nuevas claves, usando las líneas adicionales que sean necesarias.@footnote{Es frecuente realizar el proceso inverso reflejado en el próximo ejercicio, es decir escribir la música más bien en una clave que requiera un menor número de líneas adicionales, salvo claro los casos en donde las claves no sean típicas del instrumento o de la escritura musical actual.}
+Pon especial atención en la dirección y posición de las plicas y la distancia entre las líneas adicionales, que debe ser la misma que entre las líneas del pentagrama.
+@example
+@strong {EJERCICIO 3}   @emph{Greensleeves} - Anónimo
+@end example
+@noindent
+@ifinfo
+@image{6c/lily-00d69266,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="6c/lily-00d69266.ly">
+  <img align="middle"
+       border="0"
+       src="6c/lily-00d69266.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 6c/lily-00d69266-systems.texi
+@end iftex
+
+
+@vskip 10pt
+@noindent
+@ifinfo
+@image{20/lily-9128542d,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="20/lily-9128542d.ly">
+  <img align="middle"
+       border="0"
+       src="20/lily-9128542d.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 20/lily-9128542d-systems.texi
+@end iftex
+
+
+@c page
+@example
+@strong {EJERCICIO 4}
+@end example
+@noindent
+@ifinfo
+@image{4a/lily-841c1b85,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="4a/lily-841c1b85.ly">
+  <img align="middle"
+       border="0"
+       src="4a/lily-841c1b85.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 4a/lily-841c1b85-systems.texi
+@end iftex
+
+
+@c vskip 10pt
+@noindent
+@ifinfo
+@image{a4/lily-d80b5365,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="a4/lily-d80b5365.ly">
+  <img align="middle"
+       border="0"
+       src="a4/lily-d80b5365.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include a4/lily-d80b5365-systems.texi
+@end iftex
+
+
+Coloca las líneas adicionales que corresponden en el siguiente ejercicio en el segundo pentagrama.
+@example
+@strong {EJERCICIO 5}   @emph{Superman Theme} - John Williams
+@end example
+@noindent
+@ifinfo
+@image{18/lily-09bb6e62,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="18/lily-09bb6e62.ly">
+  <img align="middle"
+       border="0"
+       src="18/lily-09bb6e62.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 18/lily-09bb6e62-systems.texi
+@end iftex
+
+
+@c vskip 10pt
+@noindent
+@ifinfo
+@image{46/lily-47e24bbb,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="46/lily-47e24bbb.ly">
+  <img align="middle"
+       border="0"
+       src="46/lily-47e24bbb.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 46/lily-47e24bbb-systems.texi
+@end iftex
+
+
+@node
+@section Relación entre las claves
+Dibuja las claves en distintas posiciones de tal modo que el @emph{Do} central se desplace descendentemente (desde la primera línea adicional superior) (las claves en orden ascendente de grave a aguda) y luego ascendentemente (desde la segunda línea adicional inferior) (las claves en orden descendente de aguda a grave)
+@example
+@strong {EJERCICIO 6}
+@end example
+@noindent
+@ifinfo
+@image{b0/lily-90a2f1c8,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="b0/lily-90a2f1c8.ly">
+  <img align="middle"
+       border="0"
+       src="b0/lily-90a2f1c8.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include b0/lily-90a2f1c8-systems.texi
+@end iftex
+
+
+@vskip 10pt
+@noindent
+@ifinfo
+@image{b0/lily-90a2f1c8,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="b0/lily-90a2f1c8.ly">
+  <img align="middle"
+       border="0"
+       src="b0/lily-90a2f1c8.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include b0/lily-90a2f1c8-systems.texi
+@end iftex
+
+
+Las posiciones más usuales@footnote{Varias de estas posiciones de claves han caído en desuso progresivamente durante los siglos XIX y XX. Sin embargo es teóricamente admisible usar cualquiera de las claves sobre cualquier línea y, según Wikipedia, incluso en espacios.
+
+Ambos usos son en realidad hoy por hoy imprácticos la gran mayoría de las veces.
+
+También cabe hacer notar que las claves de @emph{Do} en quinta línea y @emph{Fa} en tercera línea son completamente equivalentes.
+} de las 3 claves son: 
+@quotation
+@noindent
+@ifinfo
+@image{6a/lily-b97b6657,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="6a/lily-b97b6657.ly">
+  <img align="middle"
+       border="0"
+       src="6a/lily-b97b6657.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 6a/lily-b97b6657-systems.texi
+@end iftex
+@end quotation
+
+
+@c node
+@c section 
+@node
+@section Compases y notación rítmica elemental
+Coloca las líneas divisorias en los lugares correctos de acuerdo a la cifra de compás. Observa con cuidado los valores de cada nota.
+@example
+@strong {EJERCICIO 7}   @emph{Michelle} - The Beatles
+@end example
+@noindent
+@ifinfo
+@image{58/lily-7a66ace5,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="58/lily-7a66ace5.ly">
+  <img align="middle"
+       border="0"
+       src="58/lily-7a66ace5.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 58/lily-7a66ace5-systems.texi
+@end iftex
+
+
+@node
+@example
+@strong {EJERCICIO 8}   @emph{El carretero}
+@end example
+@noindent
+@ifinfo
+@image{58/lily-7a66ace5,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="58/lily-7a66ace5.ly">
+  <img align="middle"
+       border="0"
+       src="58/lily-7a66ace5.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 58/lily-7a66ace5-systems.texi
+@end iftex
+
+
+Coloca las cifras de compás donde correspondan en el siguiente fragmento. No olvides la cifra de precaución al final del primer sistema luego de la línea divisoria como en todos los casos.
+@example
+@strong {EJERCICIO 9}
+@end example
+@noindent
+@ifinfo
+@image{e0/lily-378de7a3,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="e0/lily-378de7a3.ly">
+  <img align="middle"
+       border="0"
+       src="e0/lily-378de7a3.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include e0/lily-378de7a3-systems.texi
+@end iftex
+
+
+@section Intervalos melódicos y armónicos
+Indica mediante las abreviaciones @strong{arm.} y @strong{mel.} y líneas verticales u horizontales si estos intervalos son armónicos o melódicos.@footnote{Un pequeño detalle envuelve a la segunda como intervalo armónico. Ya que las cabezas de nota tienen la altura de un espacio de pentagrama es imposible colocar una segunda encima o debajo de otra nota de manera perfectamente vertical sin que colisionen, en su lugar se escribe la nota más aguda que conforma dicho intervalo inmediatamente a la derecha y pegada a la grave.} Presta mucha atención a la duración de las notas y a las voces!@footnote{No todas los intervalos son sucesivos ya que algunos pertenecen a distintas voces, debes observar por encima de todo la dirección de las plicas. Para los intervalos armónicos  es importante notar que de acuerdo a las duraciones, las notas más largas pueden hacer intervalos armónicos con otras notas de una voz distinta}
+@example
+@strong {EJERCICIO 10}
+@end example
+@noindent
+@ifinfo
+@image{dc/lily-6850d5c6,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="dc/lily-6850d5c6.ly">
+  <img align="middle"
+       border="0"
+       src="dc/lily-6850d5c6.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include dc/lily-6850d5c6-systems.texi
+@end iftex
+
+
+@node
+@section Varias voces en un mismo pentagrama
+Completa las plicas en la dirección correcta.
+@example
+@strong {EJERCICIO 11}
+@end example
+@noindent
+@ifinfo
+@image{7d/lily-babcd288,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="7d/lily-babcd288.ly">
+  <img align="middle"
+       border="0"
+       src="7d/lily-babcd288.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 7d/lily-babcd288-systems.texi
+@end iftex
+
+
+@node
+@section Alteraciones accidentales y armadura de clave
+Anula correctamente la última alteración de cada una de las siguientes armaduras.
+@example
+@strong {EJERCICIO 12}
+@end example
+@noindent
+@ifinfo
+@image{54/lily-3d20e61c,,,[image of music],}
+@end ifinfo
+@html
+<p>
+ <a href="54/lily-3d20e61c.ly">
+  <img align="middle"
+       border="0"
+       src="54/lily-3d20e61c.png"
+       alt="[image of music]">
+ </a>
+</p>
+@end html
+
+@iftex
+@include 54/lily-3d20e61c-systems.texi
+@end iftex
+
+
+@node
+@section Enarmonía
+@node
+@chapter Sobre los Intervalos
+@node
+@section Situaciones típicas de los intervalos melódicos
+@node
+@section Conjuntos de intervalos armónicos
+@node
+@section El tritono y su tendencia motriz
+@node
+@section Intervalos simples y compuestos
+@node
+@section Entonación de intervalos
+@node
+@section Reconocimiento de intervalos
+@node
+@section Búsqueda de intervalos
+@node
+@section Análisis básico de la forma (patrones rítmicos e interválicos)
+@node
+@chapter Sobre las escalas
+@node
+@section Escalas mayores y menores
+@node
+@section Escalas enarmónicas
+@node
+@section Situaciones típicas de las escalas
+@node
+@section Los grados de las escalas y sus tendencias motrices
+@node
+@section Relación entre escala y tonalidad
+@node
+@section Entonación de escalas y fragmentos de escalas
+@node
+@section Sucesión de segundas para formar escalas
+
+
+@chapter Sobre los acordes
+@node
+@section El acorde como ordenamiento planificado vs simultaneidad no planificada
+@node
+@section Acordes enarmónicos
+@node
+@section  
+
+
+
+
+
+
+
+
+
+
+
+@bye
